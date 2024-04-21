@@ -5,22 +5,22 @@
  * Este script contiene dos funciones documentadas.
  *
  * @package PracticaDocumentacion
- * @author Tu Nombre
- * @version 1.0
+ * @author Óscar de la Encarnación Ramiro
+ * @version 2.0
  * @internal Este comentario es solo para desarrolladores.
  */
 
 /**
- * Función que suma dos números.
+ * Función que resta dos números.
  *
- * Esta función suma dos números y devuelve el resultado.
+ * Esta función resta dos números y devuelve el resultado.
  *
  * @param int $num1 El primer número.
  * @param int $num2 El segundo número.
  * @return int El resultado de la suma.
  */
-function suma($num1, $num2) {
-    return $num1 + $num2;
+function resta($num1, $num2) {
+    return $num1 - $num2;
 }
 
 /**
